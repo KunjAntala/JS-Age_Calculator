@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="age_cal">
+            <div class="data">
+                <h1>Age Calculator</h1>
+            </div>
+            <div class="data">
+                <label for="age">Birth Date :</label>
+                <input type="date" name="bdate" id="bdate">
+            </div>
+            <div class="data">
+                <label for="date">Current Date :</label>
+                <input type="date" name="current_date" id="current_date">
+            </div>
+            <div class="data">
+                <button id="age_count" onclick="getAge()">Age</button>
+            </div>
+            <div>
+                <p id="age"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

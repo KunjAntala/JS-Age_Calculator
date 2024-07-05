@@ -1,0 +1,42 @@
+*{
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.age_cal{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: solid;
+    border-radius: 10px;
+}
+
+#age_count{
+    color: white;
+    background-color: green;
+    border: solid;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.data{
+    padding: 20px;
+}
+
+#age{
+    border: solid;
+    border-radius: 5px;
+    padding: 10px;
+    display: none;
+    font-weight: bold;
+}
